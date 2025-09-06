@@ -130,18 +130,6 @@ backend/
     └── index.html           # Dashboard frontend
 ```
 
-## 🔑 API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/health` | Health check |
-| GET | `/api/auth/gmail` | Get Gmail auth URL |
-| POST | `/api/emails/fetch` | Manually fetch emails |
-| GET | `/api/emails` | Get all processed emails |
-| GET | `/api/analytics` | Get dashboard analytics |
-| POST | `/api/emails/:id/send-response` | Send email response |
-| PUT | `/api/emails/:id/status` | Update email status |
-
 ## 🎯 Usage
 
 ### Automatic Processing
@@ -220,59 +208,12 @@ curl http://localhost:3001/api/auth/gmail
 curl http://localhost:3001/api/health
 ```
 
-## 🔒 Security Considerations
-
-- **API Keys**: Never commit `.env` file to version control
-- **Rate Limiting**: Built-in rate limiting for API endpoints
-- **Input Validation**: Email content is sanitized
-- **Secure Headers**: Helmet.js for security headers
-
-## 📈 Scaling & Production
-
-### For Production Deployment:
-1. Use environment variables for all credentials
-2. Implement proper logging
-3. Use Redis for session management
-4. Set up SSL/HTTPS
-5. Use PostgreSQL instead of SQLite
-6. Implement proper error monitoring
-
-### Performance Optimization:
-- Email processing in batches
-- Rate limiting for API calls
-- Caching for repeated requests
-- Database indexing for queries
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch
-3. Make changes
-4. Test thoroughly
-5. Submit pull request
-
-## 📄 License
-
-MIT License - feel free to use for personal or commercial projects
-
-## 🆘 Support
-
-For issues or questions:
-1. Check troubleshooting section
-2. Review API documentation
-3. Check Gmail API setup
-4. Verify OpenAI configuration
-
----
-
-## 🎬 Demo Video Checklist
-
-Record a demo showing:
-- [ ] Dashboard overview
-- [ ] Email fetching process
-- [ ] AI analysis results
-- [ ] Response generation
-- [ ] Sending responses
-- [ ] Analytics and filtering
-
 **Happy Email Managing! 🚀**
+
+<img width="1887" height="918" alt="Screenshot (380)" src="https://github.com/user-attachments/assets/72847d6a-c13f-40bc-ac99-909146411da1" />
+<img width="1885" height="885" alt="Screenshot (381)" src="https://github.com/user-attachments/assets/03e1f6f2-e943-443c-a2b9-4174a1565488" />
+<img width="1863" height="887" alt="Screenshot (382)" src="https://github.com/user-attachments/assets/aa6e3c82-7f2a-4e65-8cfe-a7206c7034c3" />
+<img width="1862" height="883" alt="Screenshot (383)" src="https://github.com/user-attachments/assets/8ed3a114-10c2-4077-bea3-27ee57a3b5b4" />
+
+
+
