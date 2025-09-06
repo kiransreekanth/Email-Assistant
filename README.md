@@ -40,8 +40,6 @@ cd ai-email-assistant
 mkdir backend
 cd backend
 
-# Copy all the provided files into their respective folders
-# (package.json, server.js, .env, etc.)
 ```
 
 ### Step 2: Install Dependencies
